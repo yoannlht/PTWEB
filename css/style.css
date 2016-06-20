@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url("../fonts/BebasNeue Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue Thin";
+    src: url("../fonts/BebasNeue Thin.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue Book";
+    src: url("../fonts/BebasNeue Book.ttf") format("truetype");
+}
+@font-face {
+    font-family: "A little sunshine";
+    src: url("../fonts/A little sunshine.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("../fonts/CaviarDreams.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Caviar Dreams Bold";
+    src: url("../fonts/CaviarDreams_Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+html {
+background-color:#fae86f;
+}
+.wrapper {
+width: 100%;
+}
+.wrap {
+height: 100vh;
+}
+
+.row .col.s10
+{
+margin-left: 18.6666666667%;
+width: 79.6666666667%;
+height:270vh;
+}
+.nav {
+background-color: #596678;
+position:fixed;
+box-shadow: 2px 0px 7px #444444;
+}
+.main {
+margin-top:2%;
+margin-bottom: 1%;
+background-color:white;
+}
+ul {
+margin-top: 10%;
+}
+li a {
+text-transform: uppercase;
+font-family: "Caviar Dreams Bold";
+color: white;
+font-size: 130%;
+padding-left:15%;
+}
+li {
+padding-top:8%;
+}
+.logo {
+width:80%;
+height:auto;
+margin-top: 10%;
+margin-left: 10%;
+}
+h1 {
+margin-top:3%;
+margin-left:2%;
+font-family: "Caviar Dreams Bold";
+font-size:300%;
+text-transform: uppercase;
+color:#596678;
+}
+h3 {
+font-family: "A little sunshine";
+color:#fae86f;
+font-size:200%;
+margin-left:12%;
+margin-top:-15;
+}
+.services {
+width:30%;
+height:auto;
+display: block;
+margin-left:auto;
+margin-right: auto;
+}
+.creation {
+margin-bottom: 5%;
+}
+h2{
+font-family: "A little sunshine";
+font-size:250%;
+font-weight: bold;
+text-align: center;
+margin:0;
+}
+.description {
+width:45%;
+text-align: center;
+font-family: "Roboto";
+margin:auto;
+line-height: 150%;
+font-size: 120%;
+}
+.description span {
+font-family: "Roboto Bold";
+}
+.graphisme {
+color:#e81e46;
+}
+.webdesign {
+color:#23bdb2;
+}
+.photo {
+color:#3cb65d;
+    margin-bottom: 2.5vh;
+}

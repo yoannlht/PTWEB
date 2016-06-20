@@ -1,0 +1,281 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url("../fonts/BebasNeue Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue Thin";
+    src: url("../fonts/BebasNeue Thin.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Bebas Neue Book";
+    src: url("../fonts/BebasNeue Book.ttf") format("truetype");
+}
+@font-face {
+    font-family: "A little sunshine";
+    src: url("../fonts/A little sunshine.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url("../fonts/CaviarDreams.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Caviar Dreams Bold";
+    src: url("../fonts/CaviarDreams_Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+html {
+background-color:#fae86f;
+}
+.wrapper {
+width: 89.8em;
+}
+.wrap {
+height: 100em;
+}
+.row .col.s10
+{
+margin-left: 18.6666666667%;
+width: 79.6666666667%;
+height:53em;
+}
+.nav {
+background-color: #596678;
+position:fixed;
+box-shadow: 2px 0px 7px #444444;
+}
+.main {
+margin-top:1.5em;
+margin-bottom: 1.5em;
+background-color:white;
+}
+ul {
+margin-top: 1.5em;
+}
+li a {
+text-transform: uppercase;
+font-family: "Caviar Dreams Bold";
+color: white;
+font-size: 1.3em;
+padding-left:1.5em;
+}
+li {
+padding-top:1.1em;
+}
+.logo {
+width:11em;
+height:auto;
+margin-top: 1.2em;
+margin-left: 1.2em;
+}
+h1 {
+margin-top:0.6em;
+margin-left:0.3em;
+font-family: "Caviar Dreams Bold";
+font-size:3.5em;
+text-transform: uppercase;
+color:#596678;
+}
+h3 {
+font-family: "A little sunshine";
+color:#fae86f;
+font-size:2.3em;
+margin-left:2em;
+margin-top:0.5em;
+}
+h2{
+font-family: "Caviar Dreams";
+font-size:2.5em;
+text-align: center;
+text-transform: uppercase;
+z-index: 2;
+}
+h2 span {
+font-size:0.7em;
+text-transform: inherit;
+}
+
+.icone {
+position: absolute;
+color: #d22b2b;
+top:6.5em;
+left:13em;
+}
+.lieux {
+position: absolute;
+left:28.5em;
+top:12.5em;
+}
+.mmi {
+position: absolute;
+top:17.5em;
+left:28.5em;
+z-index: 2;
+}
+.annee{
+font-family: "Caviar Dreams";
+font-size:1.5em;
+text-align: center;
+text-transform: uppercase;
+color:#fae86f;
+margin-top: -1em;
+z-index: 2;
+}
+.circle1 {
+  display: block;
+  background-color: #596678;
+  border-radius: 100%;
+  height: 12em;
+  width: 12em;
+  margin-left: 10em;
+margin-top: 4em;
+z-index: 1;
+}
+.dut {
+background-image: url(../images/chemin.gif);
+background-repeat: no-repeat;
+background-position: center top;
+}
+.content {
+position: absolute;
+width:20em;
+text-align: center;
+left:23em;
+display: none;
+}
+.circle1:hover ~ .content {
+display: block;
+}
+.content p {
+left:7;
+}
+.content span {
+font-family: "Roboto Light";
+}
+.content .description {
+font-family: "Roboto Light";
+font-size: 1.3em;
+}
+.circle2 {
+    display: block;
+  background-color: #596678;
+  border-radius: 100%;
+  height: 12em;
+  width: 12em;
+  margin-left: 42em;
+top: -3.5em;
+z-index: 1;
+}
+.scientifique {
+position: relative;
+top:-12em;
+margin-left: 26em;
+z-index: 2;
+}
+.icone2 {
+position: absolute;
+color: #d22b2b;
+top:20em;
+left:28em;
+}
+.lieux2 {
+position: absolute;
+left:58.5em;
+top:39.4em;
+}
+.content2 {
+position: absolute;
+width:20em;
+text-align: center;
+left:56em;
+top:41em;
+display: none;
+}
+.content2 span {
+font-family: "Roboto Light";
+}
+.content2 .description {
+font-family: "Roboto Light";
+font-size: 1.3em;
+}
+.circle2:hover ~ .content2 {
+display: block;
+}
+/*
+==============================================
+slideDown
+==============================================
+*/
+
+.content circle1:hover{
+  animation: animationFrames ease 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
+  -webkit-animation: animationFrames ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: animationFrames ease 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -ms-animation: animationFrames ease 1s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+@keyframes animationFrames{
+  0% {
+    opacity:0;
+    transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    opacity:0;
+    -moz-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -webkit-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    opacity:0;
+    -ms-transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
