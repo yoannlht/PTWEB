@@ -34,28 +34,30 @@
     font-family: "Roboto Bold";
     src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
-
 html {
-background-color:#596678;
+background-color:#fae86f;
 }
 .wrapper {
 width: 89.8em;
 }
 .wrap {
-
+height: 100em;
 }
 .row .col.s10
 {
 margin-left: 18.6666666667%;
 width: 79.6666666667%;
+height:110em;
 }
 .nav {
 background-color: #596678;
 position:fixed;
+box-shadow: 2px 0px 7px #444444;
 }
 .main {
 margin-top:1.5em;
 margin-bottom: 1.5em;
+background-color:white;
 }
 ul {
 margin-top: 1.5em;
@@ -77,27 +79,135 @@ margin-top: 1.2em;
 margin-left: 1.2em;
 }
 h1 {
+margin-top:0.6em;
+margin-left:0.3em;
 font-family: "Caviar Dreams Bold";
-font-size:5em;
-color:white;
-top:1.5em;
-right:4em;
-position: absolute;
+font-size:3.5em;
+text-transform: uppercase;
+color:#596678;
 }
 h3 {
-font-family: "Caviar Dreams";
-color:white;
-font-size:2.5em;
-position: absolute;
-top:6.7em;
-right:8.3em;
+font-family: "A little sunshine";
+color:#fae86f;
+font-size:2.3em;
+margin-left:4em;
+margin-top:-0.5em;
 }
 h2{
 font-family: "A little sunshine";
-font-size:3.5em;
+font-size:2.5em;
 font-weight: bold;
-color:#fae86f;
+text-align: center;
+margin:0;
+}
+.graphique {
+    position: absolute;
+left:25em;
+}
+.logo_icone {
+margin-top: 0;
+margin-right: 2em;
+float: left;
+width:5em;
+}
+.logo_icone_lr {
+margin-top: 0.7em;
+margin-right: 2em;
+float: left;
+width:5em;
+}
+p span {
+font-family: "Roboto Bold";
+text-transform: uppercase;
+}
+.ps{
+margin-top: -0.7em;
+}
+.ps span{
+color:#78b1ef;
+}
+.illustrator span {
+color:#4c3c1e;
+}
+.lightroom span{
+color:#2d2f42;
+}
+.cercle1 {
 position: absolute;
-top:3.7em;
-right:5.9em;
+left:35em;
+top:3em;
+}
+.cercle2 {
+position: absolute;
+left:35em;
+top:10em;
+}
+.cercle3 {
+position: absolute;
+left:35em;
+top:17em;
+}
+.bouton1 {
+position: absolute;
+left: 43em;
+top:37em;
+}
+.sous-titre2{
+margin-left:5em;
+}
+.video {
+    position: absolute;
+left:25em;
+top:50em;
+display: block;
+    box-sizing: border-box;
+}
+.premiere span{
+color:#3a2641;
+}
+.ae span{
+color:#c88fff;
+}
+.cercle4 {
+position: absolute;
+left:35em;
+top:5em;
+}
+.cercle5 {
+position: absolute;
+left:35em;
+top:12em;
+}
+.bouton2 {
+position: absolute;
+left: 44em;
+top:70em;
+}
+
+
+.sous-titre3{
+margin-left:5em;
+}
+.integration {
+    position: absolute;
+left:25em;
+top:83em;
+display: block;
+    box-sizing: border-box;
+}
+.html_css span{
+color:#3a2641;
+}
+.wp span{
+color:#c88fff;
+}
+.cercle6 {
+position: absolute;
+left:35em;
+top:5em;
+}
+.cercle7 {
+position: absolute;
+left:35em;
+top:12em;
 }

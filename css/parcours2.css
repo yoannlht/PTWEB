@@ -1,3 +1,4 @@
+@@ -0,0 +1,281 @@
 @font-face {
     font-family: "Bebas Neue";
     src: url("../fonts/BebasNeue Regular.ttf") format("truetype");
@@ -34,7 +35,6 @@
     font-family: "Roboto Bold";
     src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
-/------------------------GENERAL--------------------/
 html {
 background-color:#fae86f;
 }
@@ -100,12 +100,13 @@ font-size:2.5em;
 text-align: center;
 text-transform: uppercase;
 z-index: 2;
+color: white;
 }
 h2 span {
 font-size:0.7em;
 text-transform: inherit;
 }
-/------------------------cercle1--------------------/
+
 .icone {
 position: absolute;
 color: #d22b2b;
@@ -123,18 +124,14 @@ top:17.5em;
 left:28.5em;
 z-index: 2;
 }
-.annee {
+.annee{
 font-family: "Caviar Dreams";
 font-size:1.5em;
 text-align: center;
 text-transform: uppercase;
 color:#fae86f;
-margin-top:-1em;
-
+margin-top: -1em;
 z-index: 2;
-}
-.annee p {
-margin-bottom: 18em;
 }
 .circle1 {
   display: block;
@@ -147,7 +144,7 @@ margin-top: 4em;
 z-index: 1;
 }
 .dut {
-background-image: url(../images/chemin.gif);
+background-image: url(../images/chemin1.gif);
 background-repeat: no-repeat;
 background-position: center top;
 }
@@ -161,9 +158,6 @@ display: none;
 .circle1:hover ~ .content {
 display: block;
 }
-.circle1:hover ~ .mmi h2 {
-color:black;
-}
 .content p {
 left:7;
 }
@@ -174,7 +168,6 @@ font-family: "Roboto Light";
 font-family: "Roboto Light";
 font-size: 1.3em;
 }
-/------------------------cercle2--------------------/
 .circle2 {
     display: block;
   background-color: #596678;
@@ -194,20 +187,20 @@ z-index: 2;
 .icone2 {
 position: absolute;
 color: #d22b2b;
-top:18em;
+top:18.1em;
 left:28em;
 }
 .lieux2 {
 position: absolute;
 left:58.5em;
-top:35.4em;
+top:35.5em;
 }
 .content2 {
 position: absolute;
 width:20em;
 text-align: center;
 left:56em;
-top:38em;
+top:37em;
 display: none;
 }
 .content2 span {
@@ -220,10 +213,11 @@ font-size: 1.3em;
 .circle2:hover ~ .content2 {
 display: block;
 }
-.circle2:hover ~ .scientifique h2 {
-color:black;
+.inverse {
+background-image: url(../images/chemin.gif);
+background-repeat: no-repeat;
+background-position: center top;
 }
-/------------------------cercle1b--------------------/
 .icone1-b {
 position: absolute;
 color: #d22b2b;
@@ -273,7 +267,75 @@ font-size: 1.3em;
 .circle1-b:hover ~ .content1-b {
 display: block;
 }
-.circle1-b:hover ~ .viastoria h2 {
-color:black;
+.content2-b {
+position: absolute;
+width:20em;
+text-align: center;
+left:55.5em;
+top:87.5em;
+display: none;
 }
-
+.circle2:hover ~ .content2-b {
+display: block;
+}
+.icone2-b {
+position: absolute;
+color: #d22b2b;
+top:43.2em;
+left:29.7em;
+}
+.lieux2-b {
+position: absolute;
+left:62em;
+top:86em;
+}
+.ete {
+background-image: url(../images/chemin2.gif);
+background-repeat: no-repeat;
+background-position: center top;
+}
+.circle1-c {
+    position: absolute;
+    top:90em;
+  display: block;
+  background-color: #596678;
+  border-radius: 100%;
+  height: 12em;
+  width: 12em;
+  margin-left: 15em;
+margin-top:-2em;
+z-index: 1;
+}
+.futur {
+position: absolute;
+top:89em;
+left:33.5em;
+z-index: 2;
+color: black;
+}
+.futur h2 {
+font-size: 2.6em;
+}
+.content1-c {
+position: absolute;
+width:20em;
+text-align: center;
+left:28em;
+top:99.5em;
+display: none;
+}
+.content1-c span {
+font-family: "Roboto Light";
+}
+.content1-c .description {
+font-family: "Roboto Light";
+font-size: 1.3em;
+}
+.circle1-c:hover ~ .content1-c {
+display: block;
+}
+.bouton {
+position: absolute;
+left:55em;
+top:99em;
+}
