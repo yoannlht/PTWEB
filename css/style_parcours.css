@@ -124,14 +124,13 @@ left:28.5em;
 z-index: 2;
 }
 .annee {
-font-family: "Caviar Dreams";
-font-size:1.5em;
-text-align: center;
-text-transform: uppercase;
-color:#fae86f;
-margin-top:-1em;
-
-z-index: 2;
+    font-family: "Caviar Dreams";
+    font-size: 1.7em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fae86f;
+    margin-top: -0.6em;
+    z-index: 2;
 }
 .annee p {
 margin-bottom: 18em;
@@ -158,10 +157,10 @@ text-align: center;
 left:23em;
 display: none;
 }
-.circle1:hover ~ .content {
+.survol_dut:hover ~ .content {
 display: block;
 }
-.circle1:hover ~ .mmi h2 {
+.survol_dut:hover ~ .mmi h2 {
 color:black;
 }
 .content p {
@@ -185,12 +184,7 @@ font-size: 1.3em;
 top: -3.5em;
 z-index: 1;
 }
-.scientifique {
-position: relative;
-top:-15em;
-margin-left: 26em;
-z-index: 2;
-}
+
 .icone2 {
 position: absolute;
 color: #d22b2b;
@@ -217,10 +211,10 @@ font-family: "Roboto Light";
 font-family: "Roboto Light";
 font-size: 1.3em;
 }
-.circle2:hover ~ .content2 {
+.survol_s:hover ~ .content2 {
 display: block;
 }
-.circle2:hover ~ .scientifique h2 {
+.survol_s:hover ~ .scientifique h2 {
 color:black;
 }
 /------------------------cercle1b--------------------/
@@ -235,13 +229,7 @@ position: absolute;
 left:28.5em;
 top:63em;
 }
-.viastoria {
-position: absolute;
-top:67em;
-left:28.3em;
-z-index: 2;
-color: black;
-}
+
 .circle1-b {
   display: block;
   background-color: #596678;
@@ -253,7 +241,9 @@ margin-top: 5em;
 z-index: 1;
 }
 .audio {
-font-size:0.6em;
+    font-size: 0.6em;
+    position: absolute;
+    right: 0.3em;
 }
 .content1-b {
 position: absolute;
@@ -270,10 +260,12 @@ font-family: "Roboto Light";
 font-family: "Roboto Light";
 font-size: 1.3em;
 }
-.circle1-b:hover ~ .content1-b {
+.survol_audio:hover ~ .content1-b {
 display: block;
 }
-.circle1-b:hover ~ .viastoria h2 {
+.survol_audio:hover ~ .viastoria h2 {
 color:black;
 }
-
+.vous span{
+font-size: 1em;
+}
