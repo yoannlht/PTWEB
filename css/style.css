@@ -46,9 +46,14 @@ width: 89.8em;
 }
 .row .col.s10
 {
-margin-left: 18.6666666667%;
-width: 79.6666666667%;
+margin-left: 16.7em;
+width: 71.5em;
+height:120em;
 }
+.row .col.s2{width:15em;
+margin-left:auto;
+left:auto;
+right:auto}
 .nav {
 background-color: #596678;
 position:fixed;
@@ -100,4 +105,9 @@ color:#fae86f;
 position: absolute;
 top:3.7em;
 right:5.9em;
+}
+main img{
+    position: absolute;
+top:18em;
+    left:16em;
 }
