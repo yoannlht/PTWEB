@@ -183,8 +183,6 @@ position: absolute;
 left: 44em;
 top:70em;
 }
-
-
 .sous-titre3{
 margin-left:5em;
 }
@@ -210,4 +208,7 @@ top:5em;
 position: absolute;
 left:35em;
 top:12em;
+}
+.competences ul li{
+display: block;
 }
