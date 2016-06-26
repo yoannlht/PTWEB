@@ -34,6 +34,10 @@
     font-family: "Roboto Bold";
     src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regualr.ttf") format("truetype");
+}
 html {
 background-color:#fae86f;
 }
@@ -138,7 +142,7 @@ color:#596678;
 .bouton1{
 position: absolute;
 top:60em;
-    left:35em;
+left:35em;
 }
 /*grille*/
 

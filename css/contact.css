@@ -35,6 +35,10 @@
     src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regualr.ttf") format("truetype");
+}
+@font-face {
     font-family: "Social Type";
     src: url("../fonts/SocialType.ttf") format("truetype");
 }
@@ -113,14 +117,13 @@ margin:0;
 background-image: url(../images/contact.png);
 width: 29em;
 height:32em;
-position: absolute;
-top:8em;
-left:36em;
+margin-top: -4em;
+margin-left: 19em;
 }
 main p {
-margin-top:5em;
+padding-top: 4em;
 font-family: 'Roboto Bold';
-margin-left:7em;
+margin-left: 7em;
 }
 ul{
 margin-left:3.5em;

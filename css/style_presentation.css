@@ -105,36 +105,42 @@ text-align: center;
 margin:0;
 }
 .personnage {
-position: absolute;
-margin-left: 7em;
+background-image: url(../images/personnage2.png);
+width: 54em;
+height: 85em;
+    margin-left:10em;
 }
 .anniv {
-top:3.3em;
-left:38em;
+margin-top: 2.5em;
+margin-left: 14em;
 position: absolute;
+width: 12em;
 z-index: 1;
 }
 .origine {
-top:10.8em;
-left:37em;
+margin-top: 9.5em;
+margin-left: 12em;
 position: absolute;
+width: 11em;
 z-index: 1;
 }
 .origine span {
 font-family: "Caviar Dreams Bold";
 }
 .photo {
-top:18.2em;
-left:34em;
+margin-top: 16.5em;
+margin-left: 10em;
 position: absolute;
+width: 16em;
 z-index: 1;
 }
 .photo span {
 font-family: "Caviar Dreams Bold";
 }
 .etudes {
-top:32em;
-left:26em;
+margin-top: 30.5em;
+margin-left: 2em;
+width: 21em;
 position: absolute;
 z-index: 1;
 }
@@ -142,9 +148,9 @@ z-index: 1;
 font-family: "Caviar Dreams Bold";
 }
 .chat {
-top:47em;
-left:40.5em;
-position: absolute;
+margin-top: 39em;
+margin-left: 16em;
+width: 12em;
 z-index: 1;
 }
 .chat p {
@@ -152,14 +158,15 @@ font-family: "A little sunshine";
 text-transform: inherit;
 }
 .voyage {
-top:54em;
-left:62em;
+margin-top: 2em;
+margin-left: 38em;
 position: absolute;
 z-index: 1;
 }
 .cirque {
-top:78em;
-left:49em;
+margin-top: 29em;
+margin-left: 24em;
+width: 23em;
 position: absolute;
 z-index: 1;
 }
@@ -179,7 +186,7 @@ font-family: "Caviar Dreams Bold";
 }
 main a {
 left:32em;
-    top:38em;
+    top:39em;
     transition-delay: 0.5s;
     -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */

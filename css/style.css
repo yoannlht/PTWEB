@@ -31,6 +31,10 @@
     src: url("../fonts/CaviarDreams_Bold.ttf") format("truetype");
 }
 @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regualr.ttf") format("truetype");
+}
+@font-face {
     font-family: "Roboto Bold";
     src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
@@ -41,9 +45,6 @@ background-color:#596678;
 .wrapper {
 width: 89.8em;
 }
-.wrap {
-
-}
 .row .col.s10
 {
 margin-left: 16.7em;
@@ -53,7 +54,9 @@ height:120em;
 .row .col.s2{width:15em;
 margin-left:auto;
 left:auto;
-right:auto}
+right:auto
+}
+
 .nav {
 background-color: #596678;
 position:fixed;
@@ -85,29 +88,29 @@ h1 {
 font-family: "Caviar Dreams Bold";
 font-size:5em;
 color:white;
-top:1.5em;
-right:4em;
-position: absolute;
+margin-top: 2em;
+margin-left: 4.8em;
+position: relative;
 }
 h3 {
 font-family: "Caviar Dreams";
 color:white;
 font-size:2.5em;
-position: absolute;
-top:6.7em;
-right:8.2em;
+position: relative;
+margin-top: -0.6em;
+margin-left: 15.5em;
 }
 h2{
 font-family: "A little sunshine";
 font-size:3.5em;
 font-weight: bold;
 color:#fae86f;
-position: absolute;
-top:3.7em;
-right:5.9em;
+position: relative;
+margin-top: -0.7em;
+margin-left: 9.9em;
 }
 main img{
-    position: absolute;
-top:18em;
-    left:16em;
+position: relative;
+margin-top: em;
+margin-left: 16em;
 }
