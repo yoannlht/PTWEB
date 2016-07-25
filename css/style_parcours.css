@@ -273,3 +273,15 @@ color:black;
 .vous span{
 font-size: 1em;
 }
+.footer {
+width: 16em;
+font-size: 0.8em;
+position: absolute;
+margin-top: 30em;
+color: white;
+text-align: center;
+}
+.footer a {
+text-decoration: underline;
+color: white;
+}

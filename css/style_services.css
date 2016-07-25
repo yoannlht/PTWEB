@@ -32,7 +32,7 @@
 }
 @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Roboto-Regualr.ttf") format("truetype");
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
     font-family: "Roboto Bold";
@@ -154,3 +154,16 @@ margin-bottom: 0.5em;
 	transform: scale(1.1);
    	-webkit-transform: scale(1.1);
 }
+.footer {
+width: 16em;
+font-size: 0.8em;
+position: absolute;
+margin-top: 30em;
+color: white;
+text-align: center;
+}
+.footer a {
+text-decoration: underline;
+color: white;
+}
+

@@ -1,4 +1,19 @@
 @media only screen and (max-width: 750px) {
+    .nav {
+    display: none;
+    }
+    .row .col.s10 {
+    margin-left: 0em;
+    }
+    .wrapper {
+    width: 100%;
+    }
+    .personnage {
+        width:100%;
+        height:100%;
+    }
+/*
+@media only screen and (max-width: 750px) {
   .site-pusher, .site-container { height: 100%; }
   .site-container { overflow: hidden; }
   .site-pusher {

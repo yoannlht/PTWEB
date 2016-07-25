@@ -55,12 +55,13 @@ height: 100em;
 {
 margin-left: 16.7em;
 width: 71.5em;
-height:40em;
+height:220em;
 }
 .row .col.s2{width:15em;
 margin-left:auto;
 left:auto;
-right:auto}
+right:auto
+}
 .nav {
 background-color: #596678;
 position:fixed;
@@ -102,8 +103,7 @@ h3 {
 font-family: "A little sunshine";
 color:#fae86f;
 font-size:2.3em;
-margin-left:5em;
-margin-top:-0.5em;
+margin-left:3em;
 }
 h2{
 font-family: "A little sunshine";
@@ -113,15 +113,7 @@ font-weight: bold;
 text-align: center;
 margin:0;
 }
-.contact{
-background-image: url(../images/contact.png);
-width: 29em;
-height:32em;
-margin-top: -4em;
-margin-left: 19em;
-}
 main p {
-padding-top: 4em;
 font-family: 'Roboto Bold';
 margin-left: 7em;
 }
@@ -134,10 +126,9 @@ display: inline-block;
     margin:0;
     padding:0;
 }
-main li a {
-font-family: 'Social Type';
-font-size:4em;
+main a {
 color:#596678;
+text-decoration: underline;
 }
 .footer {
 width: 16em;

@@ -105,21 +105,21 @@ text-align: center;
 margin:0;
 }
 .personnage {
-background-image: url(../images/personnage2.png);
-width: 54em;
-height: 85em;
-    margin-left:10em;
+background-image: url(../images/personnage3.png);
+width: 43em;
+height: 87em;
+margin-left: 10em;
 }
 .anniv {
-margin-top: 2.5em;
-margin-left: 14em;
+margin-top: 3em;
+margin-left: 5em;
 position: absolute;
 width: 12em;
 z-index: 1;
 }
 .origine {
-margin-top: 9.5em;
-margin-left: 12em;
+margin-top: 16.5em;
+margin-left: 5em;
 position: absolute;
 width: 11em;
 z-index: 1;
@@ -128,8 +128,8 @@ z-index: 1;
 font-family: "Caviar Dreams Bold";
 }
 .photo {
-margin-top: 16.5em;
-margin-left: 10em;
+margin-top: 9.5em;
+margin-left: -2em;
 position: absolute;
 width: 16em;
 z-index: 1;
@@ -138,8 +138,8 @@ z-index: 1;
 font-family: "Caviar Dreams Bold";
 }
 .etudes {
-margin-top: 30.5em;
-margin-left: 2em;
+margin-top: 31em;
+margin-left: -8em;
 width: 21em;
 position: absolute;
 z-index: 1;
@@ -148,8 +148,8 @@ z-index: 1;
 font-family: "Caviar Dreams Bold";
 }
 .chat {
-margin-top: 39em;
-margin-left: 16em;
+margin-top: 43em;
+margin-left: 13em;
 width: 12em;
 z-index: 1;
 }
@@ -158,13 +158,13 @@ font-family: "A little sunshine";
 text-transform: inherit;
 }
 .voyage {
-margin-top: 2em;
-margin-left: 38em;
+margin-top: 4.5em;
+margin-left: 36em;
 position: absolute;
 z-index: 1;
 }
 .cirque {
-margin-top: 29em;
+margin-top: 25em;
 margin-left: 24em;
 width: 23em;
 position: absolute;
@@ -187,8 +187,21 @@ font-family: "Caviar Dreams Bold";
 main a {
 left:32em;
     top:39em;
+    margin-left:-8em;
     transition-delay: 0.5s;
     -ms-transform: rotate(-45deg); /* IE 9 */
     -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
     transform: rotate(-45deg);
+}
+.footer {
+width: 16em;
+font-size: 0.8em;
+position: absolute;
+margin-top: 30em;
+color: white;
+text-align: center;
+}
+.footer a {
+text-decoration: underline;
+color: white;
 }
