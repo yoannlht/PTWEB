@@ -166,4 +166,9 @@ text-align: center;
 text-decoration: underline;
 color: white;
 }
-
+/*RESPONSIVE*/
+@media only screen and (max-width: 750px) {
+    .bouton {
+    margin-left:13em;
+    }
+}

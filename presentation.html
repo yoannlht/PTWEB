@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="css/style_presentation.css">
     <link type="text/css" rel="stylesheet" href="css/menu_hover.css">
     <link type="text/css" rel="stylesheet" href="css/responsive.css">
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
     <link rel="icon" type="image/ico" href="images/favicon.ico" />
 </head>
@@ -15,7 +16,10 @@
 <body>
     <div class="wrapper">
         <div class="row">
+            <header class="header">
             <div class="col s2 nav wrap">
+            <a href="#" class="header__icon"></a>
+            <div class="navbar">
             <a href="index.html"><img src="images/logo.png" class="logo responsive-img"></a>
                 <nav class="cl-effect-4">
                 <ul>
@@ -29,6 +33,9 @@
                 </nav>
                 <p class="footer">Copyright &copy; Yoann Laheurte 2016 - <a href="mentions-l%C3%A9gales.html"><br>mentions légales</a></p>
             </div>
+            </div>
+                </header>
+            <div class="site-content">
             <div class="col s10 m12 main wrap">
                 <main>
                      <div class="personnage">
@@ -44,7 +51,8 @@
                     <div class="etudes">
                     <p>étudiant <span>multimédia & internet</span></p>
                     </div>
-                    <a id="scrollButton" href="#chat" class="btn-floating btn-large waves-effect waves-light yellow darken-1"><i class="material-icons">call_received</i></a>
+                    <div class="bouton">
+                        <a id="scrollButton" href="#chat" class="btn-floating btn-large waves-effect waves-light yellow darken-1"><i class="material-icons">call_received</i></a></div>
                     <div id="chat" class="chat">
                     <p>Et moi on me présente pas ?</p>
                     </div>
@@ -58,7 +66,7 @@
                     </main>
             </div>
         </div>
-                
+        </div>
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/smoothscroll.js"></script>

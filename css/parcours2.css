@@ -274,7 +274,7 @@ display: block;
 }
 .content2-b {
 position: absolute;
-width:20em;
+width:23em;
 text-align: center;
 margin-left: 38em;
 display: none;
@@ -341,4 +341,72 @@ left:32em;
 }
 p{
 font-family: 'Roboto';
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 750px) {
+    h3 {
+    margin-top: -0.7em;
+    }
+    .btn-floating.btn-large {
+    width: 0px;
+    height: 0px;
+    }
+    .circle1 {
+    height: 11em;
+    width: 11em;
+    margin-left: 4em;
+    }
+    .circle2 {
+    height: 11em;
+    width: 11em;
+    margin-left: 30em;
+    }
+    h2 span {
+    font-size: 0.6em;
+    margin-left: -0.7em;
+    }
+    .circle1-b {
+    height: 11em;
+    width: 11em;
+    margin-left: 4em;
+    }
+    .circle2 {
+    height: 11em;
+    width: 11em;
+    }
+    .circle1-c {
+    height: 11em;
+    width: 11em;
+    margin-left:5em;
+    }
+    .content {
+    display:block;
+    margin-left:0em;
+    }
+    .content2 {
+    display:block;
+    margin-left:25em;
+    }
+    #pro {
+    margin-top:0.5em;
+    }
+    .content1-b {
+    display: block;
+    margin-left: 0em;
+    }
+    .content2-b {
+    margin-left: 26em;
+    width: 18em;
+    display: block;
+    }
+    .content1-c {
+    margin-left: 0em;
+    margin-top: 9em;
+    display: block;
+    }
+    .bouton {
+    margin-left: 22em;
+    margin-top: -5em;
+        position: inherit;
+    }
 }

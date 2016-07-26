@@ -151,3 +151,14 @@ text-align: center;
 text-decoration: underline;
 color: white;
 }
+/*RESPONSIVE*/
+@media only screen and (max-width: 750px) {
+.contact {
+    width: 31em;
+    height: 34em;
+    margin-left: 6em;
+    margin-top:0em;
+}
+.row .col.s10 {
+    height: 48.5em;
+}

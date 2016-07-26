@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
     <link type="text/css" rel="stylesheet" href="css/competences.css">
     <link type="text/css" rel="stylesheet" href="css/menu_hover.css">
+    <link type="text/css" rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
     <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
@@ -14,7 +15,10 @@
 <body>
     <div class="wrapper">
         <div class="row">
+            <header class="header">
             <div class="col s2 nav wrap">
+            <a href="#" class="header__icon"></a>
+            <div class="navbar">
             <a href="index.html"><img src="images/logo.png" class="logo responsive-img"></a>
                 <nav class="cl-effect-4">
                 <ul>
@@ -27,7 +31,10 @@
                 </ul>
                 </nav>
                 <p class="footer">Copyright &copy; Yoann Laheurte 2016 - <a href="mentions-l%C3%A9gales.html"><br>mentions légales</a></p>
+                </div>
             </div>
+            </header>
+            <div class="site-content">
             <div class="col s10 main wrap">
                 <main>
                     <h1>Compétences</h1>
@@ -43,7 +50,7 @@
                             <div class="cercle2"><img src="images/cercle_ai.gif"></div>
                         </li>
                         <li><img class="logo_icone_lr responsive-img" src="images/lightroom.png">
-                            <div class="lightroom"><p><span>Lightroom</span><br>Flux de production photo, retouches photo en lot.</p></div>
+                            <div class="lightroom"><p><span>Lightroom</span><br>Flux de production photo,<br> retouches photo en lot.</p></div>
                             <div class="cercle3"><img src="images/cercle_lg.gif"></div>
                         </li>
                         </ul>
@@ -59,7 +66,7 @@
                             <div class="cercle4"><img src="images/cercle_pr.gif"></div>
                         </li>
                         <li><img class="logo_icone responsive-img" src="images/ae.png">
-                            <div class="ae"><p><span>After Effects</span><br>Outils de composition et effets visuels (motion design).</p></div>
+                            <div class="ae"><p><span>After Effects</span><br>Outils de composition et <br>effets visuels (motion design).</p></div>
                             <div class="cercle5"><img src="images/cercle_ae.gif"></div>
                         </li>
                         </ul>
@@ -71,7 +78,7 @@
                     
                     <ul class="competences">
                         <li><img class="logo_icone responsive-img" src="images/html5.png">
-                            <div class="html_css"><p><span class="html">HTML</span>&<span class="css">CSS</span><br>Outils de bases pour l'intégration d'un site internet.</p></div>
+                            <div class="html_css"><p><span class="html">HTML</span>&<span class="css">CSS</span><br>Outils de bases pour l'intégration <br>d'un site internet.</p></div>
                             <div class="cercle6"><img src="images/cercle_html.gif"></div>
                         </li>
                         <li><img class="logo_icone responsive-img" src="images/wordpress.png">
@@ -83,6 +90,7 @@
                 </main>
             </div>
         </div>
+    </div>
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
         <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -205,3 +205,50 @@ text-align: center;
 text-decoration: underline;
 color: white;
 }
+/*RESPONSIVE*/
+@media only screen and (max-width: 750px) {
+    .personnage {
+    background-image: url(../images/personnage3_mobile.png);
+    width: 35em;
+    height: 53em;
+    margin-left: 5em;
+    }
+    main p {
+    font-size:0.8em;
+    }
+    .anniv {
+    margin-top: 1.5em;
+    margin-left: 6em;
+    }
+    
+    .photo {
+    margin-top: 6em;
+    margin-left: 2em;
+    }
+    .origine {
+    margin-top: 11em;
+    margin-left: 7em;
+    }
+    .etudes {
+    margin-top: 19.5em;
+    margin-left: -2em;
+    }
+    .btn-floating.btn-large {
+    width: 0px;
+    height: 0px;
+    }
+    .chat {
+    margin-top: 27.5em;
+    margin-left: 8.5em;
+    }
+    .voyage {
+    margin-top: 1em;
+    margin-left: 24em;
+    }
+    .cirque {
+    margin-top: 18.5em;
+    margin-left: 11em;
+    }
+    .row .col.s10 {
+    height: 57em;
+}
