@@ -48,8 +48,7 @@ width: 89.8em;
 .row .col.s10
 {
 margin-left: 16.7em;
-width: 71.5em;
-height:120em;
+height:40em;
 }
 .row .col.s2{width:15em;
 margin-left:auto;
@@ -79,18 +78,14 @@ li {
 padding-top:1.1em;
 }
 .logo {
-width:11em;
-height:auto;
-margin-top: 1.2em;
-margin-left: 1.2em;
+    width: 9em;
+    height: auto;
+    margin-top: 1.2em;
+    margin-left: 2.5em;
 }
 h1 {
-font-family: "Caviar Dreams Bold";
-font-size:5em;
-color:white;
-margin-top: 2em;
-margin-left: 4.8em;
-position: relative;
+margin-top:-7em;
+color:#596678;
 }
 h3 {
 font-family: "Caviar Dreams";
@@ -101,18 +96,18 @@ margin-top: -0.6em;
 margin-left: 15.5em;
 }
 h2{
-font-family: "A little sunshine";
-font-size:3.5em;
-font-weight: bold;
-color:#fae86f;
-position: relative;
-margin-top: -0.7em;
-margin-left: 9.9em;
+font-family: "Caviar Dreams";
+    color:white;
+    font-size:2em;
+    text-align: center;
+    position: relative;
+    margin-left: -8em;
+    width: 30em;
+    
 }
 main img{
 position: relative;
-margin-top: em;
-margin-left: 6em;
+margin-left: -5em;
 }
 .footer {
 width: 16em;
@@ -125,4 +120,18 @@ text-align: center;
 .footer a {
 text-decoration: underline;
 color: white;
+}
+@media only screen and (max-width: 750px)
+{
+main img {
+    margin-left: -3em;
+}
+    .row .col.s10 {
+    margin-left: 0em !important;
+    }
+    h2{
+    font-size: 1.5em;
+            margin-left: -1em;
+    width: 27em;
+    }
 }
